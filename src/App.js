@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  window.dataLayer.push({
+    event: "pageview",
+  });
   return (
     <div className="App">
       <header className="App-header">
